@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+/*body{*/
+    /*background: #fff url(../img/background_1.jpg) repeat-x;*/
+/*}*/
+
+/*头部开始*/
+#top{
+    background: black;
+    width: 960px;
+    height: 28px;
+    position: relative;
+    margin: 0 auto;
+
+}
+.top_left{
+    list-style: none;
+    position: absolute;
+    top:3px;
+    left:31px;
+
+}
+.top_left li{
+    padding-left: 20px;
+    float: left;
+}
+.top_left li a{
+    font-family: DFKai-SB;
+    font-size:13px;
+    line-height: 13px;
+    color: whitesmoke;
+}
+.top_right{
+    list-style: none;
+    position: absolute;
+    top:3px;
+    right:10px;
+}
+.top_right li{
+    padding-left: 20px;
+    float: left;
+}
+.top_right li a{
+    font-family: DFKai-SB;
+    font-size:13px;
+    line-height: 28px;
+    color: whitesmoke;
+}
+.top_right li span{
+    font-family: DFKai-SB;
+    font-size:13px;
+    line-height: 28px;
+    color: whitesmoke;
+    font-weight: bold;
+}
